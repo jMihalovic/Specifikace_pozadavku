@@ -1,1 +1,36 @@
-# Specifikace_pozadavku
+# Specifikace požadavků
+## Verze 1
+
+Jakub Mihalovič <br/>
+mihalovic.jakub.2018@skola.ssps.cz <br/>
+26. 5. 2021
+
+Úvod
+  * Tento dokument slouží ke specifikaci požadavků programu
+  * Kontakt
+    * Jakub Mihalovič mihalovic.jakub.2018@skola.ssps.cz
+  * Odkazy na související dokumenty 
+    * https://github.com/jMihalovic/Uzitecny_software/edit/main/README.md
+
+  * Scénáře
+    * Způsoby využití
+      * V aplikaci může uživatel projíždět záznamy a prohlížet si jejich detaily. Může také záznamy přidávat, upravovat, mazat a přidávat jim osobní hodnocení.
+      * Při větším množství záznamů bude možné použít filtry.
+    * Typy uživatelských rolí
+      * Aplikace nebude rozlišovat jednotlivé uživatele
+    * Vymezení rozsahu
+      * Aplikace nebude obsahovat jiné databáze( např. režisérů).
+      * Hodnocení nebude sdíleno s jinými uživateli.
+  * Celková hrubá architektura
+    * Pracovní tok
+      * Zapnutí aplikace
+      * Zobrazení databáze
+      * Uživatel pracuje se záznamy
+      * Konec aplikace
+    * Detaily
+      * 4 WPF okna
+        * Okno s databází a tlačítky
+        * Okno pro přidávání a upravování záznamů
+        * Okno pro filtry
+        * Potvrzovací okno
+
