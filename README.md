@@ -32,6 +32,7 @@ mihalovic.jakub.2018@skola.ssps.cz <br/>
         * Okno s databází a tlačítky (pro úpravu,přidávání,mazání a filtry)
          ![obrázek 1](https://github.com/jMihalovic/Specifikace_pozadavku/blob/main/1.png "Obrázek 1")
         * Okno pro přidávání a upravování záznamů (Textová a výběrová pole pro editaci dat a tlačítko pro odsouhlasení)
+         ![obrázek 2](https://github.com/jMihalovic/Specifikace_pozadavku/blob/main/2.png "Obrázek 2") 
         * Okno pro filtry (Výběrové okno pro typ seřazení a filtrování pomocí detailů záznamů)
         * Potvrzovací okna (např. po úpravě dat nebo před smazáním záznamu)
 
