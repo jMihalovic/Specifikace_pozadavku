@@ -20,7 +20,7 @@ mihalovic.jakub.2018@skola.ssps.cz <br/>
       * Aplikace nebude rozlišovat jednotlivé uživatele
     * Vymezení rozsahu
       * Aplikace nebude obsahovat jiné databáze( např. režisérů).
-      * Hodnocení nebude sdíleno s jinými uživateli.
+      * Hodnocení ani záznamy a jejich data nebudou sdílena s jinými uživateli.
   * Celková hrubá architektura
     * Pracovní tok
       * Zapnutí aplikace
@@ -29,8 +29,8 @@ mihalovic.jakub.2018@skola.ssps.cz <br/>
       * Konec aplikace
     * Detaily
       * 4 WPF okna
-        * Okno s databází a tlačítky
-        * Okno pro přidávání a upravování záznamů
-        * Okno pro filtry
-        * Potvrzovací okno
+        * Okno s databází a tlačítky (pro úpravu,přidávání,mazání a filtry)
+        * Okno pro přidávání a upravování záznamů (Textová a výběrová pole pro editaci dat a tlačítko pro odsouhlasení)
+        * Okno pro filtry (Výběrové okno pro typ seřazení a filtrování pomocí detailů záznamů)
+        * Potvrzovací okna (např. po úpravě dat nebo před smazáním záznamu)
 
